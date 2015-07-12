@@ -1,8 +1,6 @@
 # python and shit
 
 
-
-
 class Row(object):
 
 	def __init__(self,id,d):
@@ -26,3 +24,19 @@ class Row(object):
 			self.d2[::-1]+self.d1[::-1],
 			self.d1+self.d2
 		]
+
+
+class Analysis(object):
+
+	def __init__(self,p7):
+
+		self.p7 = p7
+
+
+	def scq(self):
+
+		'''
+		return best guess at sequence after prism7 reconstruction
+		'''
+
+		pass
